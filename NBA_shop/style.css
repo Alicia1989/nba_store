@@ -1,0 +1,434 @@
+* {
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --secondary-color: #eee;
+  --white-color: #fff;
+  --grey-color: #555;
+  --light-grey-color: #777;
+  --v-light-grey-color: rgb(204, 202, 202);
+
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+.homeLogo{
+  width: 150px;
+  margin-right: -40px;
+  margin-left: -70px;
+}
+
+.brandheader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+h2 {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+#totalPrice{
+  margin-left: .1em;
+}
+.hide{
+  display: none;
+}
+.priceContainer {
+  width: 80%;
+  display: flex;
+  padding: 0.5em;
+  margin-left: 10%;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: lightgray;
+}
+#main_nav {
+  margin: 20px;
+  padding: 10px;
+  border-width: 1px 0;
+  border-color: lightgrey;
+  border-style: solid;
+}
+#main_nav a {
+  text-decoration: none;
+  padding: 0 20px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+#main_nav a:hover {
+  color: #007bff !important;
+}
+
+header h2 {
+  font-style: italic;
+  color: grey;
+  font-size: 13px;
+}
+
+main {
+  padding: 10px 60px;
+}
+
+.index-wrapper h2 {
+  text-align: left;
+}
+section article:nth-child(2) {
+  float: right;
+}
+/*welcome page*/
+
+/*end welcome page*/
+/* Customer recomendation*/
+.wrapper{
+  max-width: 95%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .box{
+  background: #fff;
+  width: calc(33% - 10px);
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+.wrapper .box i.quote{
+  font-size: 20px;
+  color: royalblue;
+}
+.wrapper .box .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.box .info .name{
+  font-weight: 600;
+  font-size: 17px;
+}
+.box .info .job{
+  font-size: 16px;
+  font-weight: 500;
+  color: royalblue;
+}
+.box .info .stars{
+  margin-top: 2px;
+}
+.box .info .stars i{
+  color: royalblue;
+}
+.box .content .image{
+  height: 75px;
+  width: 75px;
+  padding: 3px;
+  background: royalblue;
+  border-radius: 50%;
+}
+.content .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.box:hover .content .image img{
+  border-color: #fff;
+}
+
+/* End customer recomendations*/
+
+/* Contact us form*/
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:royalblue ;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: royalblue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* end Contact us form*/
+
+.w-30 {
+  width: 30%;
+}
+.w-60 {
+  width: 60%;
+}
+video {
+  width: 100%;
+}
+article {
+  float: left;
+  padding: 20px;
+}
+
+article p {
+  color: #696969;
+  margin-top: 20px;
+}
+section {
+  overflow: hidden;
+  clear: both;
+  margin-top: 40px;
+  display: block;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+figure img {
+  width: 100%;
+}
+
+aside {
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+}
+
+aside video {
+  width: 300px;
+  height: 200px;
+}
+.features {
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#adFigure {
+  width: 14em;
+  position: relative;
+  height: 21em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition-duration: 0.5s;
+  box-shadow: silver 0 0 10px;
+}
+#adFigure:hover {
+  box-shadow: gray 0 0 20px;
+}
+
+.features h4 {
+  margin: 0;
+  margin-top: 5px;
+  width: 14em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Arial", sans-serif;
+}
+.features h5 {
+  margin: 0;
+  width: 15em;
+  margin-left: -5em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Arial", sans-serif;
+}
+
+.features figure img {
+  border: 1px solid white;
+  width: 12em;
+  margin-bottom: 10px;
+}
+.buttonADd {
+  background-color: #007bff;
+  padding: 0.8rem 1.9rem;
+  border-radius: .4rem;
+  left: 2%;
+  position: absolute;
+  bottom: 5px;
+  border: none;
+  width: 96%;
+  color: white;
+  outline: none;
+  position: absolute;
+}
+.buttonADd:hover {
+  color: #007bff;
+  background: transparent;
+  border: 1px solid #007bff;
+}
+
+.skills {
+  width: 500px;
+  margin: 60px auto;
+  list-style: none;
+}
+.skills li {
+  margin: 20px;
+}
+.bar {
+  background: #353b48;
+  display: block;
+  height: 6px;
+  border: 5px solid rgba(0, 0, 0, 0, 3);
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span {
+  height: 5px;
+  float: left;
+  background: #007bff;
+}
+.Customer {
+  width: 90%;
+  animation: Customer 2s;
+}
+.Products {
+  width: 65%;
+  animation: Products 2s;
+}
+.Shipping {
+  width: 50%;
+  animation: Shipping 2s;
+}
+.Online {
+  width: 70%;
+  animation: Online 2s;
+}
+@keyframes Customer {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes Products {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes Shipping {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes Online {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .Reviews {
+    text-align: center;
+  }
+
+  .Reviews img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+fieldset {
+  margin-top: 12px;
+}
+legend {
+  text-align: center;
+}
+textarea {
+  resize: vertical;
+  max-height: 100px;
+  margin-top: 12px;
+}
+/* footer*/
+.footer {
+  background-color: var(--grey-color);
+  padding: 4rem 0 2rem 0;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+}
+.footer-link {
+font-size: 1.3rem;
+color: var(--white-color);
+margin: 0.1rem;
+background-color: var(--grey-color);
+padding: 0.3rem 3rem;
+letter-spacing: 0.3rem;
+transition: all 0.2s;
+
+}
+.footer-link:hover {
+  transform: rotate(-10deg);
+  box-shadow: 0 2rem 3rem #000;
+}
+
+/* end footer*/
